@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_exams"
+            android:title="Шалгалтууд"
+
+            android:textColor="#812690"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_group_add_24px"
+            android:title="Суралцагчид" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_groups"
+            android:title="Анги" />
+        <item
+            android:id="@+id/nav_grade"
+            android:icon="@drawable/ic_tests"
+            android:title="Дүн" />
+        <item
+            android:id="@+id/nav_statics"
+            android:icon="@drawable/ic_statistics"
+            android:title="Статистик" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_report"
+            android:title="Тайлан" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Тохиргоо" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Тусламж" />
+        <item
+            android:id="@+id/nav_close"
+            android:icon="@drawable/ic_close"
+            android:title="Гарах" />
+    </group>
+
+    <item android:title="Харилцаа холбоо">
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Түгээх" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Илгээх" />
+        </menu>
+    </item>
+
+</menu>
