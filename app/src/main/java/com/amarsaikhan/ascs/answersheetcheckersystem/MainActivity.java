@@ -343,7 +343,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
             // int temp = resultWidth;
             // resultWidth = resultHeight;
             // resultHeight = temp;
-
+            //fdgsdfg
             ocvPOut3 = new Point(0, 0);
             ocvPOut4 = new Point(0, resultHeight);
             ocvPOut1 = new Point(resultWidth, resultHeight);
